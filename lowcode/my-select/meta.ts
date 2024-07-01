@@ -1,16 +1,16 @@
 
 import { IPublicTypeComponentMetadata, IPublicTypeSnippet } from '@alilc/lowcode-types';
 
-const ColorfulInputMeta: IPublicTypeComponentMetadata = {
-  "componentName": "ColorfulInput",
-  "title": "ColorfulInput",
+const MySelectMeta: IPublicTypeComponentMetadata = {
+  "componentName": "MySelect",
+  "title": "MySelect",
   "docUrl": "",
   "screenshot": "",
   "devMode": "proCode",
   "npm": {
-    "package": "material-editor-xh",
+    "package": "material-editor-qlxp",
     "version": "0.1.0",
-    "exportName": "ColorfulInput",
+    "exportName": "MySelect",
     "main": "src/index.tsx",
     "destructuring": true,
     "subName": ""
@@ -41,16 +41,16 @@ const ColorfulInputMeta: IPublicTypeComponentMetadata = {
 };
 const snippets: IPublicTypeSnippet[] = [
   {
-    "title": "ColorfulInput",
+    "title": "MySelect",
     "screenshot": "",
     "schema": {
-      "componentName": "ColorfulInput",
+      "componentName": "MySelect",
       "props": {}
     }
   }
 ];
 
 export default {
-  ...ColorfulInputMeta,
+  ...MySelectMeta,
   snippets
 };
